@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twa-ficha03</title>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <header>
+      <input type="text" id="search-input" placeholder="Buscar por nombre..." />
+      
+      <select id="category-select">
+        <option value="">Todas las categorías</option>
+        <option value="book">Book</option>
+        <option value="recipe">Recipe</option>
+        <option value="event">Event</option>
+        <option value="game">Game</option>
+      </select>
+
+      <button id="sort-btn">Ordenar por precio</button>
+    </header>
+
+    <main>
+      <ul id="list"></ul>
+
+      <section id="detail"></section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
