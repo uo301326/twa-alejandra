@@ -134,3 +134,81 @@ load()
   </main>
 </template>
 
+<style scoped>
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #6b6375;
+}
+
+h1, h2 {
+  color: #08060d;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-bottom: 25px;
+}
+
+label {
+  margin-right: 8px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #e5e4e7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #aa3bff;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  margin: 5px 0;
+  border: 1px solid #e5e4e7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgba(170, 59, 255, 0.1);
+}
+
+.selected {
+  background-color: rgba(170, 59, 255, 0.2);
+  border: 2px solid #aa3bff;
+  font-weight: bold;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+}
+
+dt {
+  font-weight: bold;
+  color: #08060d;
+}
+
+dd {
+  margin: 0;
+}
+</style>
+
